@@ -10,6 +10,7 @@ feedbackForm.addEventListener(
 );
 
 function setFormDataInLocalStorage(event) {
+  // const form = event.target.closest('form');
   const {
     elements: { email, message },
   } = feedbackForm;
